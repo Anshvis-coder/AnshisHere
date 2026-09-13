@@ -1,5 +1,41 @@
+```python
+# Compiled Python files
+*.pyc
+__pycache__/
+
+# Virtual environments
+venv/
+.venv/
+.env
+.env.local
+*.env.*
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+*.swp
+
+# Editors
+.vscode/
+.idea/
+
+# Dependencies
 node_modules/
-.next/
+.mypy_cache/
+.pytest_cache/
+.coverage
+coverage/
+htmlcov/
+
+# Build artifacts
 dist/
 build/
-*.log
+target/
+.gradle/
+
+# System files
+.DS_Store
+Thumbs.db
+```.next/
