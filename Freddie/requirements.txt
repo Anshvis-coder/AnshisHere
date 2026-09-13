@@ -1,0 +1,21 @@
+# Freddie - Personal AI Assistant
+# Requirements
+
+# GUI Framework
+customtkinter>=5.2.0
+
+# HTTP requests for Ollama API
+requests>=2.31.0
+
+# System information
+psutil>=5.9.0
+
+# Speech Recognition (optional, for voice input)
+SpeechRecognition>=3.10.0
+
+# Text-to-Speech (optional, for voice output)
+pyttsx3>=2.90
+
+# Note: External dependencies (not installed via pip):
+# - Ollama: https://ollama.ai (required for AI features)
+# - Python 3.12+
